@@ -1,23 +1,54 @@
-import logo from './logo.svg';
 import './App.css';
+import apptimus from './favicon.png';
+import BusSeatBooking from './components/BusSeatBooking';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav class="navbar background">
+                <ul class="nav-list">
+                    <div class="logo">
+                        <img src={require('./favicon.png')} alt="logo"/>
+                    </div>
+                    <li>
+                        <a href="#courses">Busses</a>
+                    </li>
+                    <li>
+                        <a href="#tutorials">Booking</a>
+                    </li>
+                    <li>
+                        <a href="#jobs">About</a>
+                    </li>
+                    <li>
+                        <a href="#student">Clients</a>
+                    </li>
+                </ul>
+ 
+                <div class="rightNav">
+                    <input
+                        type="text"
+                        name="search"
+                        id="search"
+                    />
+                    <button class="btn btn-sm">
+                        Search
+                    </button>
+                </div>
+            </nav>
+ 
+            <section class="section">
+                <div class="box-main">
+                    <div class="firstHalf">
+                        <BusSeatBooking />
+                    </div>
+                </div>
+            </section>
+
+            {/* <footer className="footer">
+                <p className="text-footer">
+                    Copyright ©-All rights are reserved
+                </p>
+            </footer> */}
     </div>
   );
 }

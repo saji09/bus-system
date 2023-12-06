@@ -1,0 +1,30 @@
+.selected {
+    color: white;
+    background-color: #007bff;
+}
+
+.seat-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #20944c;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    color: black;
+}
