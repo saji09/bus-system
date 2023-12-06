@@ -69,7 +69,7 @@ const Home = () => {
     </div>
     <div class="card_title">
       <p>Total Bus Routes</p>
-      <p>27</p>
+      <p>27  </p>
     </div>
   </div>
     
@@ -78,7 +78,9 @@ const Home = () => {
       <img src="https://img.freepik.com/free-vector/realistic-bokeh-background_23-2149323190.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" />
       </div>
     <div class="card_title title-black">
-      <p></p>
+      <p>Experience</p>
+      <p>7 Years+  </p>
+
     </div>
     </div>
   
