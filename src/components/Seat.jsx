@@ -4,8 +4,12 @@ import './Seat.css';
 
 const Seat = ({ seatNumber, selected, onClick}) => {
   return (
-    <div className={`seat ${selected ? 'selected' : ''}`} onClick={() => onClick(seatNumber)}>
+    <div className='box-main'>
+      <div className=''>
+      <div className={`seat ${selected ? 'selected' : ''}`} onClick={() => onClick(seatNumber)}>
       <span>{seatNumber}</span>
+      </div>
+    </div>
     </div>
   );
 };

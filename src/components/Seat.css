@@ -1,17 +1,26 @@
-.selected {
-    color: white;
-    background-color: #007bff;
-}
+/* Add these styles to your CSS file or style section */
 
-.seat-container {
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+  }
+  
+  .selected {
+    color: rgb(255, 0, 0);
+    background-color: #007bff;
+    font-weight: 700;
+  }
+  
+  .seat-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    gap: 5px;
     justify-content: center;
-    margin-top: 100px;
-}
-
-.seat {
+    margin-top: 30px;
+  }
+  
+  .seat {
     width: 40px;
     height: 40px;
     display: flex;
@@ -19,12 +28,146 @@
     justify-content: center;
     cursor: pointer;
     border: 1px solid #20944c;
-    background-color: #fff;
+    background-color: #ffffff;
     font-size: 14px;
+  }
+  
+  .box-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(7, 7, 7);
+	max-width: 80%;
+	margin: auto;
+	height: 80%;
 }
 
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 100;
-    color: black;
+.firsthalf {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
+
+  .booking-container {
+    margin-top: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input,
+  select {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 200px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .booking-success {
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .booking-history {
+    margin-top: 20px;
+  }
+  
+  .booking-history li {
+    list-style: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-history button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 5px;
+  }
+  
+  .booking-history button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Add these styles to your CSS file or style section */
+
+.table-container {
+    margin-top: 10px;
+    margin: 20px 50px 50px 50px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table-container th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-container button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .table-container button:hover {
+    background-color: #c0392b;
+  }
+  
+  .success {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    width: 250px;
+    justify-content: center;
+  }
+  
+  .input-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .input-container {
+    margin-right: 20px; 
+  }
+  
