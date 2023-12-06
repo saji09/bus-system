@@ -1,0 +1,48 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 45px;
+    font-color: red;
+
+  }
+ .
+  
+  .services ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 45px;
+    align-items: start;
+  }
+  
+  .user-reviews {
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  
+  .review {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .review-details {
+    flex: 1;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+    font-size: 45px;
+
+  }
+  
+  /* Add more styling as needed */
+  
