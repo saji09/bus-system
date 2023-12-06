@@ -22,9 +22,13 @@ const BusSeatBooking = () => {
     }
   };
 
+  const busOptions = ['Bus A', 'Bus B', 'Bus C']; // Replace with your actual bus names
+
   return (
     <div>
-      <h1>Bus Seat Booking</h1>
+      <div>
+        <h1>Bus Seat Booking</h1>
+      </div>
       <div className="seat-container">
         {[...Array(30)].map((_, index) => (
           <Seat
@@ -36,14 +40,19 @@ const BusSeatBooking = () => {
         ))}
       </div>
       <div>
+      <label>Select Bus:</label>
+          <select value={selectedBus} onChange={(e) => setSelectedBus(e.target.value)}>
+            <option value="" disabled>
+              Select a bus
+            </option>
+            {busOptions.map((bus) => (
+              <option key={bus} value={bus}>
+                {bus}
+              </option>
+            ))}
+          </select>
         <p>Selected Seats: {selectedSeats.join(', ')}</p>
-        <label>Select Bus:</label>
-        <input
-          type="text"
-          placeholder="Enter bus name"
-          value={selectedBus}
-          onChange={(e) => setSelectedBus(e.target.value)}
-        />
+        
         <button onClick={handleBooking} disabled={selectedSeats.length === 0 || !selectedBus}>
           Book Now
         </button>
