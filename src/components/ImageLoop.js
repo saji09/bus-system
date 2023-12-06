@@ -1,19 +1,20 @@
 import React from 'react';
 
-const ImageLoop = ({ images }) => {
-
+const Busses = ({ images }) => {
   return (
-    <div className="image-loop-container">
+    <div className="image-gallery">
       {images.map((image, index) => (
-        <img
-          key={index}
-          src={image.src}
-          alt={`Image ${index}`}
-          className="image-loop-item"
-        />
+        <div key={index} className="image-item">
+          <img src={image.src} alt={`Img ${index}`} className="image" />
+          <div className="image-details">
+            <h3>{image.name}</h3>
+            <p>From: {image.from}</p>
+            <p>To: {image.to}</p>
+          </div>
+        </div>
       ))}
     </div>
   );
 };
 
-export default ImageLoop;
+export default Busses;
