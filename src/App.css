@@ -184,3 +184,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+.image-loop-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	overflow: hidden;
+  }
+  
+  .image-loop-item {
+	width: 800px; 
+	height: 300px; 
+	margin: 10px;
+	object-fit: cover; 
+	border-radius: 50px;
+	overflow: hidden;
+	transition: transform 0.3s ease; 
+  }  
+ 
+  .image-loop-item:hover {
+	transform: scale(1.1); 
+  }
+  
