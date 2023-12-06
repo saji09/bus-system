@@ -17,6 +17,10 @@ function Navbar() {
           <Link to="/booking">BusSeatBooking</Link>
         </li>
         <li>
+        <li>
+          <Link to="/#">Profile</Link>
+        </li>
+        {/* <li>
           <Link to="/about">About</Link>
         </li>
         {/* Add more navigation links as needed */}

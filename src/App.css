@@ -185,17 +185,13 @@
   }
 }
 
-
-.image-loop-container {
+.image-gallery {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	overflow: hidden;
   }
   
-  .image-loop-item {
-	width: 800px; 
-	height: 300px; 
+  .image-item {
 	margin: 10px;
 	object-fit: cover; 
 	border-radius: 50px;
@@ -206,9 +202,5 @@
   .image-loop-item:hover {
 	transform: scale(1.1); 
   }
-  @media (max-width: 600px) {
-	.home-bannerImage-container,
-	.about-background-image-container {
-	  display: none;
-	}
-  }
+  
+  
