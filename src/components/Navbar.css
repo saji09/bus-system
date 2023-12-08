@@ -5,7 +5,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 40px;
+  }
+
+  .logo-container{
+    margin-top: 20px;
   }
   
   .logo a {
