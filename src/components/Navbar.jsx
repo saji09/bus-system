@@ -1,11 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-// import logo from './favicon.png';
+import logo from '../favicon2.png';
 
 function Navbar() {
   return (
     <nav className="navbar">
+      <div className="logo-container">
+        <img src={logo} alt="Logo" className="logo" />
+        <Link to="/home" className="logo-link">
+        </Link>
+      </div>
       <ul className="nav-links">
         <li>
           <Link to="/home">Home</Link>

@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 40px;
   }
   
   .logo a {
@@ -18,7 +19,7 @@
     list-style: none;
     display: flex;
     float: right;
-    margin-left: 900px;
+    margin-left: 800px;
     
   }
   
