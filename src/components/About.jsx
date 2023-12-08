@@ -55,6 +55,7 @@ const About = () => {
         
       <div className="about-container">
         <h2>About Our  Service</h2>
+        <br />
         <img src='https://img.freepik.com/premium-photo/online-navigation-map-smartphone-transport-bus-concept-generative-ai_847296-996.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais'></img>
         <div className="services">
           <h3></h3>
