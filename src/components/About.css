@@ -2,7 +2,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    font-size: 15px;
+    font-size: 25px;
     font-color: red;
 
   }
@@ -11,27 +11,26 @@
     margin: 0 auto;
     padding: 20px;
     font-size: 15px;
-  
 
   }
   
   .services ul {
     list-style:square;
 justify-content: flex-start;
-    font-size: 15px;
+    font-size: 25px;
     align-items: flex-start;
   }
   
   .user-reviews {
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   .review {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    font-size: 25px;
+    font-size: 15px;
   }
   
   .avatar {
@@ -47,11 +46,11 @@ justify-content: flex-start;
   
   .contact-info {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 15px;
 
   }
   .p {
-    font-size: 25px;
+    font-size: 15px;
   }
   
   /* Add more styling as needed */
