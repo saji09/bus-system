@@ -5,14 +5,14 @@ import logo from '../favicon3.png';
 // ...
 
 const Login = () => {
-  const [email, setEmail] = useState('');
+  // const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [username, setUsername] = useState('');
   const navigate = useNavigate();
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
+  // const handleEmailChange = (e) => {
+  //   setEmail(e.target.value);
+  // };
 
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
@@ -38,7 +38,7 @@ const Login = () => {
     }
 
     // Reset the form fields after submission
-    setEmail('');
+    // setEmail('');
     setPassword('');
     setUsername('');
   };
@@ -52,17 +52,17 @@ const Login = () => {
         <div className='logo-container'>
         <img src={logo} alt="Logo" className="logo" />
       </div>
-        <div className='details'>
+        {/* <div className='details'>
           <label>Email:</label>
           <input type="email" value={email} onChange={handleEmailChange} required />
+        </div> */}
+        <div className='details'>
+          <label>Username:</label>
+          <input type="text" value={username} onChange={handleUsernameChange} required />
         </div>
         <div className='details'>
           <label>Password:</label>
           <input type="password" value={password} onChange={handlePasswordChange} required />
-        </div>
-        <div className='details'>
-          <label>Username:</label>
-          <input type="text" value={username} onChange={handleUsernameChange} required />
         </div>
         <button type="submit">Login</button>
       </form>
