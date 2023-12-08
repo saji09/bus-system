@@ -40,6 +40,9 @@ const Home = () => {
       <div>
         <p><h3>NOW, GET MORE THAN JUST BUS TICKETS WITH</h3> <h1>APPTIBUS!</h1></p>
       </div>
+      <div>
+        <h3>Book Your Bus Tickets <a href='./login'> Here!!!!!!!</a></h3>
+      </div>
       <h1></h1>
       <div>
    <div class="cards-list">
