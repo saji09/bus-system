@@ -22,6 +22,9 @@ function Navbar() {
         <li>
           <Link to="/#">Profile</Link>
         </li>
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
         {/* /* Add more navigation links as needed */}
       </ul>
     </nav>
