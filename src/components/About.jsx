@@ -30,23 +30,23 @@ const About = () => {
     const userReviews = [
       {
         id: 1,
-        name: 'Goof Hedch',
+        name: 'Prashanth',
         review:
           'I have been using this bus booking service for a while now, and it never disappoints! Quick and easy booking process with excellent customer service.',
         avatar: 'https://img.freepik.com/premium-photo/portrait-young-bearded-indian-man-streets-outdoors_251136-80087.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais', // Replace with actual image URL
       },
       {
         id: 2,
-        name: 'Jane Smith',
+        name: 'Sriraam',
         review:
           'Highly recommended! The buses are always clean and comfortable. I appreciate the wide range of routes available.',
         avatar: 'https://img.freepik.com/free-photo/young-handsome-indian-man-wearing-sunglasses-while-thinking-against-street-outdoors_231208-2791.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais', // Replace with actual image URL
       },
       {
         id: 3,
-        name: 'Hilma Shey',
+        name: 'Fazrima Ahmed',
         review:
-          'Absolutely love this bus service! The buses are consistently clean and comfortable, making every journey a pleasure. The wide selection of routes available suits my travel needs perfectly',
+          'Absolutely love this bus service!  The wide selection of routes available suits my travel needs perfectly',
         avatar: 'https://img.freepik.com/free-photo/young-woman-portrait-street_1303-13672.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais', // Replace with actual image URL
       },
     ];

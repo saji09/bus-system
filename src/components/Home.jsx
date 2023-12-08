@@ -38,7 +38,7 @@ const Home = () => {
         </form>
       </div>
       <div>
-        <p><b>NOW, GET MORE THAN JUST BUS TICKETS WITH APPTIBUS!</b></p>
+        <p><h3>NOW, GET MORE THAN JUST BUS TICKETS WITH</h3> <h1>APPTIBUS!</h1></p>
       </div>
       <h1></h1>
       <div>
@@ -46,16 +46,16 @@ const Home = () => {
   
    <div class="card 2">
     <div class="card_image">
-      <img src="https://img.freepik.com/free-vector/gradient-connection-background_52683-118589.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" />
+      <img src="https://img.freepik.com/free-vector/realistic-polygonal-background_52683-60158.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" />
       </div>
-    <div class="card_title title-white">
+    <div class="card_title title-black">
       <p>Total Users</p>
       <p>1897</p>
     </div>
   </div>
   <div class="card 1">
-    <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
-    <div class="card_title title-white">
+    <div class="card_image"> <img src="https://img.freepik.com/free-vector/blue-white-crystal-textured-background_53876-86341.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" /> </div>
+    <div class="card_title title-black">
       <p>Total Bus Services</p>
       <p>97</p>
     </div>
@@ -65,7 +65,7 @@ const Home = () => {
   
   <div class="card 3">
     <div class="card_image">
-      <img src="https://img.freepik.com/free-vector/realistic-polygonal-background_23-2148914276.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" />
+      <img src="https://img.freepik.com/free-vector/paper-style-smooth-background_23-2148967339.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" />
     </div>
     <div class="card_title">
       <p>Total Bus Routes</p>
@@ -75,7 +75,7 @@ const Home = () => {
     
     <div class="card 4">
     <div class="card_image">
-      <img src="https://img.freepik.com/free-vector/realistic-bokeh-background_23-2149323190.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" />
+      <img src="https://img.freepik.com/free-psd/neon-sign-background-isolated_23-2150601847.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" />
       </div>
     <div class="card_title title-black">
       <p>Experience</p>
@@ -107,7 +107,7 @@ const Home = () => {
 
         <div className="partner-logo">
           <img src="https://img.freepik.com/premium-photo/blue-ribbon-with-red-blue-ribbon-it_14117-15362.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" alt="" /><br />
-        Gogo
+       Yaalzhy
         </div>
 
         <div className="partner-logo">
@@ -116,8 +116,7 @@ const Home = () => {
         </div>
         <div className="partner-logo">
           <img src="https://img.freepik.com/free-vector/golden-bird-logo-design_1195-336.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=sph" alt="" /><br />
-        Trady
-        </div>
+Freedom        </div>
         <div className="partner-logo">
           <img src="https://img.freepik.com/free-vector/colorful-bird-illustration-gradient_343694-1741.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=sph" alt="" /><br />
           Jaffnese
