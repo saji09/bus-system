@@ -71,11 +71,13 @@ h1 {
     padding: 10px;
     cursor: pointer;
     border: none;
+    width: 100px;
   }
   
   button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
+    width: 100px;
   }
   
   .booking-success {
@@ -104,10 +106,12 @@ h1 {
     cursor: pointer;
     border: none;
     margin-top: 5px;
+    width: 100px;
   }
   
   .booking-history button:hover {
     background-color: #c0392b;
+    width: 100px;
   }
   
   /* Add these styles to your CSS file or style section */
@@ -144,6 +148,7 @@ h1 {
     padding: 5px;
     cursor: pointer;
     border: none;
+    width: 100px;
   }
   
   .table-container button:hover {
