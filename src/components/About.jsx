@@ -87,8 +87,8 @@ const About = () => {
   </div>
         <div className="contact-info">
           <h3>Contact Us</h3>
-          <p>Email: tatabus@example.com</p>
-          <p>Phone: +94711570768</p>
+          <p><b>Email: </b>Info.apptibus@gmail.com</p>
+          <p><b>Phone:</b> +94711570768</p>
         </div>
     
       </div>
