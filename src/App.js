@@ -7,6 +7,7 @@ import BusList from './components/BusList';
 import Home from './components/Home';
 import About from './components/About';
 import Login from './components/Login';
+import Profile from './components/Profile';
 
 function App() {
   
@@ -26,6 +27,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/booking" element={<BusSeatBooking />} />
             <Route path="/bus-list" element={<BusList />} />
+            <Route path="/profile" element={<Profile />} />
+
             </Routes>
        
         </div>
