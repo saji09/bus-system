@@ -36,7 +36,8 @@
   .details label {
     display: block;
     margin-bottom: 8px;
-    font-weight: bold;
+    /* font-weight: bold; */
+    text-align: left;
   }
   
   .details input {
