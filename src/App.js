@@ -6,8 +6,10 @@ import BusSeatBooking from './components/BusSeatBooking';
 import BusList from './components/BusList';
 import Home from './components/Home';
 import About from './components/About';
+import Login from './components/Login';
 
 function App() {
+  
   return (
     <Router>
       <div className="App">
@@ -15,12 +17,17 @@ function App() {
             <Navbar />
         </div>
         <div>
+       
+      
             <Routes>
-            {/* <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} /> */}
+            <Route path="/login" element={<Login />} />
+
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
             <Route path="/booking" element={<BusSeatBooking />} />
             <Route path="/bus-list" element={<BusList />} />
             </Routes>
+       
         </div>
       </div>
     </Router>
@@ -28,3 +35,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+

@@ -7,9 +7,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <ul className="nav-links">
-        {/* <li>
-          <Link to="/">Home</Link>
-        </li> */}
+        <li>
+          <Link to="/home">Home</Link>
+        </li>
         <li>
           <Link to="/bus-list">BusList</Link>
         </li>
@@ -17,12 +17,15 @@ function Navbar() {
           <Link to="/booking">BusSeatBooking</Link>
         </li>
         <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
           <Link to="/#">Profile</Link>
         </li>
-        {/* <li>
-          <Link to="/about">About</Link>
-        </li> */}
-        {/* Add more navigation links as needed */}
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
+        {/* /* Add more navigation links as needed */}
       </ul>
     </nav>
   );
