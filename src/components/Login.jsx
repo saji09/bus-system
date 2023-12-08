@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import './Login.css';
+import logo from '../favicon2.png';
 // ...
 
 const Login = () => {
@@ -43,18 +44,23 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <h2>Login</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
+    <div className='login'>
+      <form className='form' onSubmit={handleSubmit}>
+        <div className='title'>
+          <h2>Login</h2>
+        </div>
+        <div className='logo-container'>
+        <img src={logo} alt="Logo" className="logo" />
+      </div>
+        <div className='details'>
           <label>Email:</label>
           <input type="email" value={email} onChange={handleEmailChange} required />
         </div>
-        <div>
+        <div className='details'>
           <label>Password:</label>
           <input type="password" value={password} onChange={handlePasswordChange} required />
         </div>
-        <div>
+        <div className='details'>
           <label>Username:</label>
           <input type="text" value={username} onChange={handleUsernameChange} required />
         </div>
