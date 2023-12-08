@@ -75,7 +75,7 @@ const Home = () => {
     
     <div class="card 4">
     <div class="card_image">
-      <img src="https://img.freepik.com/free-psd/neon-sign-background-isolated_23-2150601847.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" />
+      <img src="https://img.freepik.com/premium-photo/abstract-curve-background-simple-modern_552255-1197.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" />
       </div>
     <div class="card_title title-black">
       <p>Experience</p>
@@ -104,7 +104,7 @@ const Home = () => {
         </div>
         {/* Add more features with images and descriptions */}
       </div>
-      <br/>
+      <br/> 
       <h2>Our Partners</h2>
       <br/>
       <div className="partner-companies">
