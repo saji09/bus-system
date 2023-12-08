@@ -30,7 +30,7 @@ const Login = () => {
 
     if (username === correctUsername && password === correctPassword) {
       // Successful login, navigate to the booking page
-      navigate('/booking');
+      navigate('/bus-list');
     } else {
       // Failed login, display an error message or take appropriate action
       alert('Invalid credentials. Please try again.');
