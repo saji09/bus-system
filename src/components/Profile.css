@@ -1,0 +1,34 @@
+
+
+/* Profile.css */
+.profile-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .member {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 300px;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Add more CSS styling as needed */
+  
