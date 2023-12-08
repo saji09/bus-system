@@ -8,12 +8,12 @@ function Navbar() {
     <nav className="navbar">
       <div className="logo-container">
         <img src={logo} alt="Logo" className="logo" />
-        <Link to="/home" className="logo-link">
+        <Link to="/" className="logo-link">
         </Link>
       </div>
       <ul className="nav-links">
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         {/* <li>
           <Link to="/login">BusList</Link>
