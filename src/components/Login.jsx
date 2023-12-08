@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+// ...
 
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [username, setUsername] = useState('');
+  const navigate = useNavigate();
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -19,10 +23,19 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here, you can perform validation or send this data to a backend for authentication
-    console.log('Email:', email);
-    console.log('Password:', password);
-    console.log('Username:', username);
+
+    // Simulate a simple login check (replace this with your actual authentication logic)
+    const correctUsername = 'admin';
+    const correctPassword = 'admin';
+
+    if (username === correctUsername && password === correctPassword) {
+      // Successful login, navigate to the booking page
+      navigate('/booking');
+    } else {
+      // Failed login, display an error message or take appropriate action
+      alert('Invalid credentials. Please try again.');
+    }
+
     // Reset the form fields after submission
     setEmail('');
     setPassword('');
