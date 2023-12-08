@@ -85,7 +85,26 @@ const Home = () => {
     </div>
   
   </div>
-      
+  <h2>Why you choose us?</h2>
+  <div className="features">
+        <div className="feature">
+          <img src="https://img.freepik.com/free-vector/school-bus-tracking-system-abstract-concept-illustration-bus-tracking-application-school-smart-transportation-system-gps-location-tracker-mobile-navigation-software_335657-318.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" alt="Feature 1" />
+         <b><p>Convenient Booking</p></b> 
+          <p>Book your bus tickets hassle-free with our easy-to-use platform.</p>
+        </div>
+        <div className="feature">
+          <img src="https://img.freepik.com/premium-vector/internet-service-book-buy-bus-ticket-travel-tourism-concept-tourist-planning-trip-online-passengers-buying-tickets-bus-mobile-app-vector-design_458444-1502.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" alt="Feature 1" />
+        <b> <p>Ease of Use</p></b> 
+          <p>Book your bus tickets hassle-free with our easy-to-use platform.</p>
+        </div>
+        <div className="feature">
+          <img src="https://img.freepik.com/premium-photo/role-logistics-globalised-5g-tecnology-concept_250469-9924.jpg?size=626&ext=jpg&ga=GA1.1.1527803959.1697433902&semt=ais" alt="Feature 2" />
+        <b><p>Wide Network</p></b>  
+          <p>Access to a vast network of bus routes and destinations.</p>
+        </div>
+        {/* Add more features with images and descriptions */}
+      </div>
+      <br/>
       <h2>Our Partners</h2>
       <br/>
       <div className="partner-companies">
